@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/html-css-js-art/filesearchbot /filesearchbot
+  git clone https://github.com/draculacoders/filesearchbot /filesearchbot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /filesearchbot
